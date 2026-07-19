@@ -1,0 +1,185 @@
+/* ============================
+   GLOBAL NAVBAR (Shared)
+============================ */
+.navbar {
+    background: #008c95;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* ============================
+   LOGO BOX (Navbar)
+============================ */
+.logo-box,
+.logo-box1 {
+    width: 50px;
+    height: 50px;
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.logo-box img,
+.logo-box1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* ============================
+   PAGE CONTAINER (Shared)
+============================ */
+
+
+.page-container {
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-container h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-container p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============================
+   HOME PAGE — Large Logo Box
+============================ */
+.logo-box2 {
+    width: 180px;
+    height: 180px;
+    border: 2px dashed #008c95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008c95;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo-box2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* ============================
+   HOME PAGE — Quiz Panel
+============================ */
+.quiz-panel {
+    width: 35%;
+    background: white;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-panel h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #008c95;
+}
+
+.quiz-panel p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.quiz-panel button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    background: #008c95;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quiz-panel button:hover {
+    background: #006f75;
+}
+
+/* ============================
+   SCOREBOARD TABLE
+============================ */
+.score-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.score-table th {
+    background: #008c95;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.score-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+.score-table tr:hover {
+    background: #f1f1f1;
+}
+
+
+.left-content {
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
